@@ -2,7 +2,6 @@ package br.com.attornatus.gerenciar.pessoas.model.pessoa;
 
 import br.com.attornatus.gerenciar.pessoas.model.endereco.Endereco;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

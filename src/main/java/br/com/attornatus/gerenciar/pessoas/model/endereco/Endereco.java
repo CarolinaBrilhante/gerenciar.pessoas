@@ -62,12 +62,6 @@ public class Endereco {
         isPrincipal = principal;
     }
 
-//    public void setPessoa(Long id) {
-//        Endereco endereco = new Endereco();
-//        //endereco.setPessoa(getId());
-//        endereco.setPessoa(id);
-//    }
-
     public void setPessoa(Pessoa pessoa) {
         this.pessoa = pessoa;
     }
