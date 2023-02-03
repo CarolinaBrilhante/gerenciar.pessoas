@@ -7,13 +7,14 @@ import br.com.attornatus.gerenciar.pessoas.model.pessoa.PessoaRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/enderecos")
+@RequestMapping(value = "/enderecos", produces = MediaType.APPLICATION_JSON_VALUE)
 public class EnderecoController {
     @Autowired
     private EnderecoService enderecoService;
